@@ -24,6 +24,7 @@ public class Hello {
         int checkintegerNum = 1 ;
         System.out.println(checkintegerNum);
 
+
         int demo = 0;
         System.out.println(demo);
 
