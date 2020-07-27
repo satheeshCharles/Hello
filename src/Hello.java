@@ -27,9 +27,9 @@ public class Hello {
         short checkMaxshortvalue=32767;
         char displayChar= 'e';
         char unicodeValue = '\u0B85';
-        String tamilName= "\u0b85\u0b9f\u0bb2\u0bc7\u0bb1\u0bc1";
+        String tamilunicodetext= "\u0ba4\u0bae\u0bbf\u0bb4\u0bcd \u0bb5\u0bbe\u0bb4\u0bcd\u0b95";
         System.out.println(unicodeValue);
-        System.out.println(tamilName);
+        System.out.println(tamilunicodetext);
         int demo = 0;
         System.out.println(demo);
 
