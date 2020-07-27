@@ -30,8 +30,21 @@ public class Hello {
         String tamilUnicodeText= "\u0ba4\u0bae\u0bbf\u0bb4\u0bcd \u0bb5\u0bbe\u0bb4\u0bcd\u0b95";
         System.out.println(unicodeValue);
         System.out.println(tamilUnicodeText);
-        int demo = 0;
+        int demo = 12;
         System.out.println(demo);
+        demo++;
+        System.out.println("Demo ++ " + demo);
+
+        boolean resultStatus = true;
+        if (resultStatus == true)
+            System.out.println("Displaying the Demo result!! " + resultStatus);
+
+        int resultMark = 10;
+        if (resultMark == 10) {
+            System.out.println("Result Mark " + resultMark);
+            System.out.println("Checking the use of curly braes");
+        }
+
 
     }
 
