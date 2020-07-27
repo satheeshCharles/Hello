@@ -13,8 +13,8 @@ public class Hello {
         float findMinValue= Float.MIN_VALUE;
         float findMaxvalue = Float.MAX_VALUE;
         System.out.println("Min Value " + findMinValue + " Max value "+ findMaxvalue);
-        double checkFloatNum = 1.78 ;
-        System.out.println(checkFloatNum);
+        float checkFloatNum = 1.78f ;
+        System.out.println("float number is = "+checkFloatNum);
 
         int findMiniValue= Integer.MIN_VALUE;
         int findMaxivalue = Integer.MAX_VALUE;
@@ -25,8 +25,11 @@ public class Hello {
         System.out.println(checkintegerNum);
 
         short checkMaxshortvalue=32767;
-
-
+        char displayChar= 'e';
+        char unicodeValue = '\u0B85';
+        String tamilName= "\u0b85\u0b9f\u0bb2\u0bc7\u0bb1\u0bc1";
+        System.out.println(unicodeValue);
+        System.out.println(tamilName);
         int demo = 0;
         System.out.println(demo);
 
