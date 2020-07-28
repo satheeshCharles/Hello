@@ -50,9 +50,19 @@ public class Hello {
                     }
         int correctedMark=85;
         if (correctedMark > 80 && correctedMark > mark ){
-            System.out.println("Your score has been modified");
+            System.out.println("Your score has been raised");
         }
-    }}
+        resultStatus = resultMark ? true : false ;
+        if (resultStatus) {
+            System.out.println("Condition Executed!!");
+        }
+        resultStatus = (!(resultMark) ) ? true : false ;
+        if (resultStatus){
+            System.out.println("False executed !!" + resultStatus);
+        }
+
+    }
+}
 
 
 
