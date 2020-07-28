@@ -39,14 +39,20 @@ public class Hello {
         if (resultStatus == true)
             System.out.println("Displaying the Demo result!! " + resultStatus);
 
-        int resultMark = 10;
-        if (resultMark == 10) {
+        boolean resultMark = false;
+        if (resultMark == false )
             System.out.println("Result Mark " + resultMark);
             System.out.println("Checking the use of curly braes");
+
+        int mark = 80;
+        if (!(mark < 75)) {
+            System.out.println("You have scored the higher marks !!");
+                    }
+        int correctedMark=85;
+        if (correctedMark > 80 && correctedMark > mark ){
+            System.out.println("Your score has been modified");
         }
+    }}
 
 
-    }
 
-
-}
