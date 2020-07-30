@@ -1,4 +1,4 @@
-public class Hello {
+public class RemasteringJava {
     public static void main(String[] args) {
         System.out.println("Hello World of Remastering");
         int initialValue = (7 + 8) * (6 / 2);
